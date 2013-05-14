@@ -6,7 +6,7 @@
         <string>org.s8f.idle-miner</string>
         <key>ProgramArguments</key>
         <array>
-                <string>/Users/carlos8f/projects/DiabloMiner/idle-miner.sh</string>
+                <string>{cwd}/idle-miner.sh</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
