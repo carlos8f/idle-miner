@@ -4,9 +4,11 @@
 <dict>
         <key>Label</key>
         <string>org.s8f.idle-miner</string>
+        <key>WorkingDirectory</key>
+        <string>#home</string>
         <key>ProgramArguments</key>
         <array>
-                <string>{cwd}/idle-miner.sh</string>
+                <string>scripts/idle-miner.sh</string>
         </array>
         <key>RunAtLoad</key>
         <true/>

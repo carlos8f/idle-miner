@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# fill out your mining details here:
+
+MINING_USER=carlos8f_imac
+MINING_PASS=UJyvm1HvoGKRz34KDh0
+MINING_HOST=us2.eclipsemc.com
+MINING_PORT=8337
+# idle time to trigger mining. (in 10ths of a second)
+MINING_IDLE_TIME=300

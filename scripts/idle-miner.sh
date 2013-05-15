@@ -1,2 +1,3 @@
-#!/bin/bash
-{cwd}/sleepwatcher --verbose --timeout 300 --idle {cwd}/miner.sh --idleresume {cwd}/kill-miner.sh
+#!/usr/bin/env bash
+. CONFIG
+./vendor/sleepwatcher/sleepwatcher --verbose --timeout $MINING_IDLE_TIME --idle scripts/miner.sh --idleresume scripts/kill-miner.sh
